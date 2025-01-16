@@ -12,6 +12,11 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        poiret: ["Poiret One", "sans-serif"],
+        mon: ["Montserrat", "sans-serif"],
+        lato: ["Lato", "sans-serif"],
+      },
     },
   },
   plugins: [],
