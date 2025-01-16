@@ -149,13 +149,11 @@ export default function Home() {
           <p className="font-lato font-[500] text-md mb-8 leading-10">
             I am currently pursuing a Computer Science major with a Business
             minor at New York University. My interests lie in full-stack web
-            development, cloud engineering, and data analysis. With skills in
-            Python, React, JavaScript, and AWS technologies, I am passionate
-            about building functional and creative solutions. In the past, I had
-            the opportunity to work with two startups, where I gained hands-on
-            experience with the product lifecycle, collaborative development,
-            and problem-solving. Outside of tech, I enjoy traveling, sketching,
-            swimming, and attending concerts.
+            development, cloud engineering, and data analysis. In the past, I
+            had the opportunity to work with two startups, where I gained
+            hands-on experience with the product lifecycle, collaborative
+            development, and problem-solving. Outside of tech, I enjoy
+            traveling, sketching, swimming, and attending concerts.
           </p>
         </div>
         <div data-aos="fade-up" className="flex my-44">
