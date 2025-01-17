@@ -8,14 +8,14 @@ const Experience: React.FC<ExperienceType> = ({
   description,
 }) => {
   return (
-    <div className="flex py-6 px-4 border-t-4">
+    <div className="flex py-6 px-4 border-t-4 flex-col md:flex-row">
       <div className="mr-16 whitespace-nowrap">
-        <h2 className="font-lato font-[300] text-sm">{date}</h2>
+        <h2 className="font-lato font-[300] text-sm mb-2">{date}</h2>
       </div>
       <div>
         <h1 className="font-lato text-blue-500 tracking-wide font-[700] text-xl mb-4">
           {title}
-          <a href={link} className="ml-8">
+          <a href={link} target="_blank" className="ml-2 md:ml-8">
             🔗
           </a>
         </h1>
