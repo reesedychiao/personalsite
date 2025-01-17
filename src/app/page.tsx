@@ -42,7 +42,7 @@ const experiences: ExperienceType[] = [
 const projects: ProjectType[] = [
   {
     title: "Soundtrack",
-    link: "https://github.com/reesedychiao/soundtrack",
+    link: "https://github.com/reesedychiao/sound-track-project",
     description:
       "A full-stack application that allows users to reminisce the past in the form of their favorite songs. Users can add songs with dates and descriptions to create a personal music journal. Users can also view other profiles, making it a common space for music enthusiasts.",
     tech: ["Next.js", "Tailwind CSS", "MongoDB", "Vercel"],
