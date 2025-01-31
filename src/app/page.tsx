@@ -76,8 +76,9 @@ const skills = {
     "Jekyll",
   ],
   DATABASES: ["MongoDB", "PostgreSQL", "MySQL"],
-  "CLOUD & DEVOPS": ["AWS", "Docker", "PM2"],
+  "CLOUD & DEVOPS": ["AWS", "Docker", "PM2", "GitHub Actions", "Terraform"],
   "DATA ANALYSIS & VISUALIZATION": [
+    "Excel",
     "Pandas",
     "NumPy",
     "Matplotlib",
@@ -88,7 +89,6 @@ const skills = {
 
 export default function Home() {
   const [isVisible, setIsVisible] = useState(false);
-  const [isBouncing, setIsBouncing] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -187,13 +187,14 @@ export default function Home() {
             ABOUT
           </h2>
           <p className="font-lato font-[500] text-md mb-8 leading-10">
-            I'm Reese, a software engineer passionate about creating innovative
-            and functional digital experiences. Whether it's designing scalable
-            cloud architectures, building insightful data models, or developing
-            full-stack web applications, I thrive on exploring a diverse range
-            of technologies and solving complex problems. Beyond tech, I enjoy
-            traveling, sketching, swimming, and attending concerts — always
-            seeking new inspiration from the world around me.
+            I'm Reese, a software engineer passionate about integrating
+            technology and business to create impactful digital solutions.
+            Whether it's developing full-stack web applications, analyzing
+            complex datasets, or building predictive models, I thrive on
+            exploring a diverse range of technologies and solving complex
+            problems. Beyond tech, I enjoy traveling, sketching, swimming, and
+            attending concerts — always seeking new inspiration from the world
+            around me.
           </p>
         </div>
         <div data-aos="fade-up" className="flex my-44 flex-col md:flex-row">
