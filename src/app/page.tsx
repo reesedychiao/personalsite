@@ -10,6 +10,25 @@ import { useState, useEffect } from "react";
 
 const experiences: ExperienceType[] = [
   {
+    date: "03/2024 - Present",
+    title: "Member - NYU Google Developer Group",
+    link: "/",
+    description: [
+      "Collaborating with a team to build a full-stack web application featuring a recommendation engine, leveraging modern frameworks and cloud technologies",
+      "Engaging in networking events, workshops, and tech talks with industry professionals, Google engineers, and mentors to enhance technical and career skills",
+    ],
+  },
+  {
+    date: "02/2024 - Present",
+    title: "Research Assistant - NYU Shanghai Business Department",
+    link: "/",
+    description: [
+      "Conducting literature reviews of academic studies to establish an appropriate research methodology",
+      "Collecting and preprocessing firm and stock data from diverse sources to ensure dataset reliability",
+      "Performing quantitative analysis on large datasets using statistical tools",
+    ],
+  },
+  {
     date: "02/2024 - 05/2024",
     title: "Software Development Intern - imagiLabs",
     link: "https://imagilabs.com/",
