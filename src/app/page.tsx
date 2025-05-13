@@ -19,16 +19,6 @@ const experiences: ExperienceType[] = [
     ],
   },
   {
-    date: "02/2024 - Present",
-    title: "Research Assistant - NYU Shanghai Business Department",
-    link: "/",
-    description: [
-      "Conducting literature reviews of academic studies to establish an appropriate research methodology",
-      "Collecting and preprocessing firm and stock data from diverse sources to ensure dataset reliability",
-      "Performing quantitative analysis on large datasets using statistical tools",
-    ],
-  },
-  {
     date: "02/2024 - 05/2024",
     title: "Software Development Intern - imagiLabs",
     link: "https://imagilabs.com/",
